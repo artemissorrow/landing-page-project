@@ -36,18 +36,31 @@ li {
     margin: 10px;
 }
 
-p {
-    color: #ca8eae;
-}
-
 figure {
     padding: 25px;
-    margin-bottom: 40px;
+    margin: 0 40px 40px 40px; 
 }
 
 img {
     display: block;
     width: 1000px;
-    padding: 50px;
+    margin: 20px auto;
+    margin-top: 150px;
     border: solid 5px #ca8eae;
+}
+
+.text {
+    color:#ca8eae;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    background-color: #cf6e7b;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+h2 {
+    padding: 20px;
 }
